@@ -1,4 +1,3 @@
-
 ### Before the model is known
 
 If you want to redirect from one route to another, you can do the transition in
@@ -39,7 +38,7 @@ App.PostsRoute = Ember.Route.extend({
 });
 ```
 
-When transitioning to the `PostsRoute` it turns out that there is only one post,
+When transitioning to the `PostsRoute` and it turns out that there is only one post,
 the current transition is aborted in favor of redirecting to the `PostRoute`
 with the single post object being its model.
 
